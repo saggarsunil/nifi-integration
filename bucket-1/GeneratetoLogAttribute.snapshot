@@ -54,6 +54,47 @@
           "autoTerminatedRelationships" : [ ],
           "bulletinLevel" : "WARN",
           "bundle" : {
+            "artifact" : "nifi-websocket-processors-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.9.2"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "76ed0ab0-e0b9-308e-9930-671ac0a68ef3",
+          "identifier" : "5b8a104e-583d-36b2-b940-6be383ed9990",
+          "name" : "ConnectWebSocket",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 539.0,
+            "y" : 489.01388454437256
+          },
+          "properties" : { },
+          "propertyDescriptors" : {
+            "websocket-client-controller-service" : {
+              "displayName" : "WebSocket Client ControllerService",
+              "identifiesControllerService" : true,
+              "name" : "websocket-client-controller-service",
+              "sensitive" : false
+            },
+            "websocket-client-id" : {
+              "displayName" : "WebSocket Client Id",
+              "identifiesControllerService" : false,
+              "name" : "websocket-client-id",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.websocket.ConnectWebSocket",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ "success" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
             "artifact" : "nifi-standard-nar",
             "group" : "org.apache.nifi",
             "version" : "1.9.2"
@@ -131,7 +172,7 @@
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "org.apache.nifi.processors.standard.LogAttribute",
-          "yieldDuration" : "1 sec"
+          "yieldDuration" : "10 sec"
         }, {
           "autoTerminatedRelationships" : [ ],
           "bulletinLevel" : "WARN",
