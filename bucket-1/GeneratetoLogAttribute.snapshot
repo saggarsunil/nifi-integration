@@ -51,7 +51,7 @@
         },
         "processGroups" : [ ],
         "processors" : [ {
-          "autoTerminatedRelationships" : [ ],
+          "autoTerminatedRelationships" : [ "success" ],
           "bulletinLevel" : "WARN",
           "bundle" : {
             "artifact" : "nifi-standard-nar",
@@ -131,7 +131,7 @@
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "org.apache.nifi.processors.standard.LogAttribute",
-          "yieldDuration" : "1 sec"
+          "yieldDuration" : "10 sec"
         }, {
           "autoTerminatedRelationships" : [ ],
           "bulletinLevel" : "WARN",
