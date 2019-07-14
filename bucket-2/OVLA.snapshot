@@ -11,7 +11,19 @@
         "controllerServices" : [ ],
         "funnels" : [ ],
         "identifier" : "2229251c-e041-3e9c-b583-87ca73bdccbb",
-        "inputPorts" : [ ],
+        "inputPorts" : [ {
+          "allowRemoteAccess" : false,
+          "componentType" : "INPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "2229251c-e041-3e9c-b583-87ca73bdccbb",
+          "identifier" : "93f4e085-54b8-3b26-a73c-de615b9d1385",
+          "name" : "test ort",
+          "position" : {
+            "x" : 597.0,
+            "y" : 214.01388454437256
+          },
+          "type" : "INPUT_PORT"
+        } ],
         "labels" : [ ],
         "name" : "OVLA-Test",
         "outputPorts" : [ ],
