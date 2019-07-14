@@ -7,7 +7,35 @@
       "flowContents" : {
         "comments" : "",
         "componentType" : "PROCESS_GROUP",
-        "connections" : [ ],
+        "connections" : [ {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "groupId" : "2229251c-e041-3e9c-b583-87ca73bdccbb",
+            "id" : "fbecff82-bae9-359f-83e1-d4316ffe269c",
+            "name" : "Outport",
+            "type" : "OUTPUT_PORT"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "2229251c-e041-3e9c-b583-87ca73bdccbb",
+          "identifier" : "aa73681f-366c-3336-90b4-1ba0835588f6",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "" ],
+          "source" : {
+            "groupId" : "2229251c-e041-3e9c-b583-87ca73bdccbb",
+            "id" : "93f4e085-54b8-3b26-a73c-de615b9d1385",
+            "name" : "test ort",
+            "type" : "INPUT_PORT"
+          },
+          "zIndex" : 0
+        } ],
         "controllerServices" : [ ],
         "funnels" : [ ],
         "identifier" : "2229251c-e041-3e9c-b583-87ca73bdccbb",
@@ -26,7 +54,19 @@
         } ],
         "labels" : [ ],
         "name" : "OVLA-Test",
-        "outputPorts" : [ ],
+        "outputPorts" : [ {
+          "allowRemoteAccess" : false,
+          "componentType" : "OUTPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "2229251c-e041-3e9c-b583-87ca73bdccbb",
+          "identifier" : "fbecff82-bae9-359f-83e1-d4316ffe269c",
+          "name" : "Outport",
+          "position" : {
+            "x" : 1252.501708984375,
+            "y" : 84.53295803070068
+          },
+          "type" : "OUTPUT_PORT"
+        } ],
         "position" : {
           "x" : 2280.4583740234375,
           "y" : 628.0139007568359
