@@ -1,6 +1,6 @@
 flows:
   38ec22a4-251b-4e70-a8f4-3d021e272dcf: {ver: 3, file: GeneratetoLogAttribute.snapshot,
-    comments: aa, author: anonymous, created: 1563030270426, flowName: GeneratetoLogAttribute,
+    comments: Testing syncing, author: anonymous, created: 1563030270426, flowName: GeneratetoLogAttribute,
     flowDesc: ''}
 layoutVer: 1
 bucketId: dec7a90a-f42e-4aeb-bcc2-94615acd3b2b
